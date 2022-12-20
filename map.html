@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		var promiseObj=new Promise((resolve,reject)=>{
+			var time=Math.random();
+			console.log(time)
+			if(time<0.5)
+				return reslove()
+			else 
+				return reject()
+		})
+		console.log(promiseObj)
+	</script>
+</head>
+<body>
+
+</body>
+</html>
